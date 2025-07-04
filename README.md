@@ -1,7 +1,8 @@
 # Kotlin Design Patterns
 
-This repository contains Kotlin implementations of various **design patterns**, categorized as per the **Gang of Four**
-classification: **Creational**, **Structural**, and **Behavioral**.
+This repository contains Kotlin implementations of core design patterns, adapted for building financial software — 
+such as card issuing systems, payment platforms, and KYC engines. Patterns are organized according to the Gang of Four 
+classification: Creational, Structural, and Behavioral, with each example grounded in real-world fintech use cases.
 
 ---
 
@@ -18,7 +19,7 @@ Creational patterns provide mechanisms for object creation that increase flexibi
 | `KotlinIdiomaticBuilder.kt` | Idiomatic Builder   | Uses Kotlin’s features to build domain objects like `Transaction` or `UserProfile` fluently.  |
 | `LazyInitialization.kt`     | Lazy Initialization | Defers loading of expensive objects (e.g., exchange rates, fraud models) until needed.        |
 | `Prototype.kt`              | Prototype           | Clones pre-configured payment workflows or risk profiles to avoid reconfiguration overhead.   |
-| `Sigleton.kt`               | Singleton           | Ensures one instance of critical components (e.g., audit logger, rate limiter) exists.        |
+| `Singleton.kt`              | Singleton           | Ensures one instance of critical components (e.g., audit logger, rate limiter) exists.        |
 
 ---
 
