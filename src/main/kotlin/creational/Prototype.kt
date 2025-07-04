@@ -3,7 +3,8 @@ package creational
 /*
 What Is the Prototype Pattern?
 
-The Prototype Pattern creates new objects by cloning existing ones, rather than instantiating new instances from scratch.
+The Prototype Pattern creates new objects by cloning existing ones,
+rather than instantiating new instances from scratch.
 
 When to use it:
 - You have complex or costly-to-create objects
