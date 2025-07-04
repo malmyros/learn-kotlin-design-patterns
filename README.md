@@ -1,9 +1,7 @@
 # Kotlin Design Patterns
 
-This repository contains Kotlin implementations of core **design patterns**, adapted for building **financial software
-** —  
-such as card issuing systems, payment platforms, and KYC engines. Patterns are organized according to the **Gang of Four
-** classification:  
+This repository contains Kotlin implementations of core **design patterns**, adapted for building **financial software** —  
+such as card issuing systems, payment platforms, and KYC engines. Patterns are organized according to the **Gang of Four** classification:  
 **Creational**, **Structural**, and **Behavioral**, with each example grounded in real-world fintech use cases.
 
 ---
