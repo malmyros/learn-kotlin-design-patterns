@@ -41,8 +41,8 @@ Structural patterns focus on how classes and objects are composed to form larger
 
 Behavioral patterns are concerned with the communication between objects.
 
-| File                                                                              | Pattern                 | Description                                                                                                                                                  |
-|-----------------------------------------------------------------------------------|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| File                                                                               | Pattern                 | Description                                                                                                                                                  |
+|------------------------------------------------------------------------------------|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`ChainOfResponsibility.kt`](src/main/kotlin/behavioural/ChainOfResponsibility.kt) | Chain of Responsibility | Passes a request through a chain of handlers. Useful for transaction validation pipelines (e.g., balance check → fraud check → limits check).                |
 | [`Command.kt`](src/main/kotlin/behavioural/Command.kt)                             | Command                 | Encapsulates a request as an object. Useful for storing, auditing, or retrying actions like reversing a payment or retrying a failed payout.                 |
 | [`Interpreter.kt`](src/main/kotlin/behavioural/Interpreter.kt)                     | Interpreter             | Implements a simple language or rule engine. Can parse and evaluate transaction rules or fee calculation expressions.                                        |
